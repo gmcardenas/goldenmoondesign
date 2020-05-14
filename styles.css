@@ -47,7 +47,7 @@ h1 {
     width: 100%;
     z-index: 80;        }
 #navegador li {
-    background-color: purple; 
+    background-color: purple;
     text-align: center;
     width: 25%;
     padding: 3px 0px 3px 0px;
@@ -116,7 +116,7 @@ table { border-collapse: collapse ; }
     width: 20%;
     height: 512px; 
     color:white;
-    background-color: rgb(1, 99, 228);
+    background-color: fuchsia;
     font-size: 40px;
     padding-left: 60px;
     display: flex;
@@ -125,18 +125,18 @@ table { border-collapse: collapse ; }
      }
 
 #slider {
-        background-color:grey;
+        background-color:pink;
            }
 #slider button {
     height:100px;
     width:50px;
     top: 200px;
-    background-color: grey;
+    background-color: pink;
 }
 
 #prev {
     position: absolute;
-    left: 60px;
+    left: 90px;
     background-image:url(izquierda.png);
     background-repeat: no-repeat;
     background-blend-mode: soft-light;
@@ -145,7 +145,7 @@ table { border-collapse: collapse ; }
    
 #next {
     position: absolute;
-    right: 60px;
+    right: 90px;
     background-image:url(derecha.png);
     background-repeat: no-repeat;
     background-blend-mode: soft-light;
@@ -161,15 +161,15 @@ form {
     text-align: left;
     padding: 20px;
     width: 430px;
-    background-color: rgb(100, 61, 100);
-    color: white;
+    background-color: pink;
+    color: purple;
     position: absolute;
     top: 35px;
     right: 0px;
     font-weight: 500;
     }
 .enviar {
-    background-color:  rgb(1, 99, 228);
+    background-color:  purple;
     border-radius: 5px;
     cursor: pointer;
     color: white;
@@ -180,7 +180,7 @@ form {
     margin-bottom: 10px;
      }
 .enviar:hover {
-    background-color: blue;
+    background-color: fuchsia;
     }
 textarea {
   
@@ -200,20 +200,20 @@ input, textarea, select  {
     position: absolute;
     top: 35px;
     width: 60%;
-    background-color: rgb(250, 231, 233);
+    background-color: pink;
     padding: 10px;
          }
 #tabla table, #tabla td {
     padding: 5px;
     width: 100%;
     color: purple;
-    border: 1px solid  rgb(1, 99, 228);
+    border: 1px solid purple;
     border-collapse: collapse;
     text-align: center;
     table-layout: fixed;
   }
 #ttabla {
-    background-color: rgb(1, 99, 228);
+    background-color: fuchsia;
     color: white ;
-    font-weight: 500;
+    font-weight: 600;
       }
