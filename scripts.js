@@ -29,7 +29,7 @@ window.onload = function() { //tras cargar la página ...
    tis=document.getElementById("TablaimagenS"); //celda de imagen saliente
    pararCambio=setInterval(cambio,5000); //iniciar visionado automático
    numImagen=0; //Referencia a la imagen.
-   modo="7"; //referencia al modo de transición.
+   modo="3"; //referencia al modo de transición.
    }
    
    function cambio() { //Temporizador de cambio de imagen
@@ -174,7 +174,7 @@ window.onload = function() { //tras cargar la página ...
             
    function visionar() { //visualiza la imagen
             fotoEntra=numImagen+1; //num para foto entrante
-            if (fotoEntra>5) { //reiniciamos ciclo al llegar al final
+            if (fotoEntra>6) { //reiniciamos ciclo al llegar al final
                fotoEntra=1;
                }
             imgEnt.src="foto"+fotoEntra+".jpg"; //mostrar imagen entrante
